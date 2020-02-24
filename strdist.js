@@ -544,7 +544,7 @@ function baire( vecA, vecB ){
     if( lenA === 0 || lenB === 0 ){ 
         return Infinity; 
     }
-    return ( 1 / (1 + LCP(vecA, vecB)) );
+    return ( 1 / (1 + LCF(vecA, vecB)) );
 }
 
 function notbaire( vecA, vecB ){
