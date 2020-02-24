@@ -495,7 +495,7 @@ def notbaire( vecA, vecB ):
     if( lenA == 0 or lenB == 0 ):
         return Infinity 
     
-    return ( 1 / (1 + LCP(vecA, vecB)) )
+    return ( 1 / (1 + LCF(vecA, vecB)) )
 
 
 def generalizedcantor( vecA, vecB ):
